@@ -26,4 +26,31 @@ This project focuses on predicting the **Air Quality Index (AQI)** using supervi
 
 ---
 
+## 📊 Results
+
+| Model              | R² Score | MAE    | RMSE   |
+|-------------------|----------|--------|--------|
+| Linear Regression | ~0.65    | 45–50  | ~70    |
+| Decision Tree     | ~0.78    | ~30    | ~45    |
+| ✅ Random Forest   | **0.80+** | **~25** | **~40** |
+
+---
+
+## 📌 Key Visuals
+
+- 📈 **Correlation Heatmap** showing relationships between pollutants
+- 🌲 **Feature Importance Bar Chart** from Random Forest model
+- 🧭 **Interactive City-wise AQI Trend** using `ipywidgets` dropdown
+
+---
+
+## 📚 Libraries Used
+
+- `pandas` – Data manipulation and preprocessing
+- `numpy` – Numerical operations
+- `matplotlib` – Plotting graphs
+- `seaborn` – Statistical data visualization
+- `scikit-learn` – Machine learning models and evaluation
+- `ipywidgets` – Interactive dropdown widget in notebooks
+
 
